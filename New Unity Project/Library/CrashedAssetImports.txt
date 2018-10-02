@@ -1,1 +1,1 @@
-Assets/Adam Character Pack/Adam/Textures/Adam_Legs_a.tif
+Assets/Adam Character Pack/Guard/Textures/Guard_albedo_01.TIF
