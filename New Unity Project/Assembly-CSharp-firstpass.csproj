@@ -452,6 +452,20 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{176E921B-A098-C722-9886-EFEFA43104D3}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{70015FC3-3862-1AF5-F32A-24A70627D1CE}</Project>
+      <Name>Unity.Recorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Samples.csproj">
+      <Project>{13BC6DBB-144E-1E4C-C29D-58AB59E44CB7}</Project>
+      <Name>Unity.Recorder.Samples</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
