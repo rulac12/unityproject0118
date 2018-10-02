@@ -273,3 +273,11 @@ Cmd: disassembleShader
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=14 insize=1386 outsize=6429 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=7445 outsize=3193 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=7897 outsize=5301 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=873 outsize=909 ok=1
